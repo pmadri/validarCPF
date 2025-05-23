@@ -39,5 +39,27 @@ function validarCPF(cpf) {
 
     // Retorna true se o CPF for válido
     return true;
-  
 }
+
+// Adiciona um evento de escuta ao formulário
+document.getElementById("cpfForm").addEventListener("submit", function(e) {
+    // Previne o comportamento padrão do formulário (recarregar a página)
+    e.preventDefault();
+
+    // Obtém o valor do campo de entrada com o ID "cpf"
+    const cpf = document.getElementById("cpf").value;
+
+    // Obtém a div onde a mensagem será exibida
+    const messageDiv = document.getElementById("message");
+
+    // Valida o CPF usando a função validarCPF
+    if (validarCPF(cpf)) {
+        // Se o CPF for válido, exibe uma mensagem de sucesso em verde
+        messageDiv.textContent = "CPF válido!";
+        messageDiv.style.color = "green";
+    } else {
+        // Se o CPF for inválido, exibe uma mensagem de erro em vermelho
+        messageDiv.textContent = "CPF inválido!";
+        messageDiv.style.color = "red";
+    }
+});
