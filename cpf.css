@@ -1,0 +1,10 @@
+/* Estilização e centralização do body da página */
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #000000;
+    font-family: Arial;
+}
