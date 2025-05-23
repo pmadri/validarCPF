@@ -1,5 +1,7 @@
 # Validação de CPF
 
+>:white_check_mark: PROJETO FINALIZADO :white_check_mark:
+
 ### Tópicos
 :triangular_flag_on_post: [Descrição](#descrição)
 
