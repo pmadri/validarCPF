@@ -21,6 +21,8 @@ Um validador de CPF, adaptando a lógica de verificação para JavaScript e exib
 
 ## Layout
 
+![Layout da aplicação](Imagens/LayoutCPF.png)
+
 ## Tecnologias utilizadas
 - `HTML`
   
