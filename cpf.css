@@ -17,3 +17,27 @@ body{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0, 1);
 }
 
+.form-container input{
+    display: block;
+    margin-bottom: 10px;
+    padding: 15px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+label{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.form-container button{
+    padding: 15px;
+    background-color: #0026ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+}
+
