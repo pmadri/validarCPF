@@ -8,6 +8,18 @@
     <link rel='stylesheet' type='text/css' media='screen' href='cpf.css'>
 </head>
 <body>
+     <!-- Container principal para o formulário -->
+     <main class="form-container">
+        <!-- Formulário para validação de CPF -->
+        <form id="cpfForm">
+            <h1>Validar CPF</h1>
+            <!-- Campo de entrada para o CPF -->
+            <input type="text" id="cpf" placeholder="000.000.000-00" required>
+            <!-- Botão para submeter o formulário -->
+            <button type="submit">Validar</button>
+        </form>
+        <div id="message"></div>
+    </main>
     
 <script src='cpf.js'></script>
 
