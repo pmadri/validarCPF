@@ -15,6 +15,9 @@
 Um validador de CPF, adaptando a lógica de verificação para JavaScript e exibindo mensagens indicando se o CPF é válido ou inválido.
 
 ## Funcionalidades
+`Funcionalidade 1:` Validação do CPF através da lógica de verificação oficial;
+
+`Funcionalidade 2:` Exibição de mensagens mostrando se o CPF é válido ou inválido.
 
 ## Layout
 
