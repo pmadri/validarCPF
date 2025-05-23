@@ -29,4 +29,15 @@ function validarCPF(cpf) {
     // Multiplica cada dígito pelo peso correspondente e soma
     soma += parseInt(cpf.charAt(i)) * (11 - i);
     }
+
+    resto = (soma * 10) % 11;
+
+    if (resto === 10 || resto === 11) resto = 0;
+
+    // Verifica se o segundo dígito verificador é válido
+    if (resto !== parseInt(cpf.charAt(10))) return false;
+
+    // Retorna true se o CPF for válido
+    return true;
+  
 }
