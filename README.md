@@ -19,5 +19,10 @@ Um validador de CPF, adaptando a lógica de verificação para JavaScript e exib
 ## Layout
 
 ## Tecnologias utilizadas
+- `HTML`
+  
+- `CSS`
+
+- `JavaScript`
 
 ## Contribuidores
